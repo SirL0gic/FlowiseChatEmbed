@@ -44,7 +44,7 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      Created by
+      Built by
       <a
         ref={liteBadge}
         href={'https://raen.ai'}
@@ -54,7 +54,7 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span>Raen AI</span>
+        <span> Raen AI</span>
       </a>
     </span>
   );
